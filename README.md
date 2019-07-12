@@ -12,6 +12,8 @@
   ```
 ## Linking 
  the coded is deployed on Tencent cloud: http://111.230.201.198:8080/SegmentAndNER/
+ 
+ 
  the training code:  https://github.com/Emmonss/SegmentAndNER
  
  
