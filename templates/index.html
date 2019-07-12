@@ -1,0 +1,217 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>分词系统</title>
+ <link href="/static/js/bootstrap.min.css" rel="stylesheet">
+ <link rel="stylesheet" type="text/css" href="/static/js/site.min.css">
+<link type="text/css" rel="stylesheet" href="/static/js/index.css">
+<script type="text/javascript" src="/static/js/api"></script><script type="text/javascript" src="/static/js/getscript"></script>
+<script src="/static/js/html5shiv.min.js"></script>
+<script src="/static/js/jquery-1.11.1.min.js"></script>
+<script src="/static/js/respond.min.js"></script>
+<script src="/static/js/jquery.js"></script>
+<script src="/static/js/bootstrap-transition.js"></script>
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+<style type="text/css"> 
+.anchorBL{ 
+display:none; 
+} 
+</style>
+<!--brat-->
+<script type="text/javascript" src="/static/js/head.load.min.js"></script>
+<!--Echarts-->
+<script src="/static/js/echarts.js"></script>
+    <script type="text/javascript">
+		function g(x){
+        var d=document.getElementsByTagName('li');
+        var text = document.getElementById("text");
+        for(p=d.length;p--;){
+            if(d[p].id!=x){
+                d[p].style.backgroundColor='#dddee2';
+            }
+            else{
+                d[p].style.backgroundColor='#ffffff';
+            }
+        }
+
+        for(p=d.length;p--;){
+            if(d[p].id==x){
+                text.value = d[p].id;
+            }
+        }
+     }
+    </script>
+
+<script src="/static/js/jquery.js"></script>
+    <script>
+//这里是关键点 .ready 函数好像监听器。
+        $(document).ready(function () {
+//jq的处理函数，当点击提交按钮时执行。
+            $("#btn").click(function () {
+//得到页面中id为a和b两个标签的值
+                var input1 = $("#input1").val();
+                var text = $("#text").val();
+//向服务器发送get请求，请求地址为demo_add
+                $.get("/index_show/", { 'input1': input1, 'text': text }, function (ret) {
+//请求结果为ret，将请求结果赋值给id为result的节点
+                    $('#fenci1').html(ret)
+                }));
+        });
+    </script>
+
+
+</head>
+
+<body style="zoom: 1;">
+    <div class="header" style="background:#000000;min-height: 189px;">
+        <div>
+            <a href="https://github.com/Emmonss" target="_black">
+                <img style="position: absolute; top: 0; right: 0; border: 0;" src="/static/js/github.png" alt="Fork me on GitHub">
+            </a>
+        </div>
+
+    </div>
+    <div class="container-fluid">
+        <div class="row" style="position:relative;background:#dddee2;padding-bottom:6%;">
+            <div class="col-md-12 center-block">
+                <div class="col-md-12">
+                    <ul class="nav nav-pills" style="margin-left:4%;font-size: 16px;color: #000;line-height: 34px;">
+                        <li role="presentation" onclick='g(this.id)' id=hmm style="background:#ffffff"><a target="_black">HMM-分词</a></li>
+                        <li role="presentation" onclick='g(this.id)' id=crf><a  target="_black">CRF-分词</a></li>
+                        <li role="presentation" onclick='g(this.id)' id=crf2><a  target="_black">CRF-分词+标注</a></li>
+                        <li role="presentation" onclick='g(this.id)' id=BiLSTM1><a  target="_black">BiLSTM-分词</a></li>
+                        <li role="presentation" onclick='g(this.id)' id=BiLSTM2><a  target="_black">BiLSTM-实体识别</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-12 center-block">
+                    <div class="row">
+                       
+                        <div class="col-md-11 center-block" style="float:none;padding-left: 0px;padding-right: 0px;">
+                            <textarea id=input1 class="form-control" rows="16" value="原标题"></textarea>
+                            <div id="transform" style="display: none;">原标题：</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 center-block">
+                    <div style="width:8%;float:left;margin-left:46%;margin-top:25px" >
+                        <form action="/index_show/" method="get">
+                        <input type = "text" name= "mood" id =text value="hmm"/>
+                        <button type="button" id=btn class="btn btn-primary">开始分析</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="background:#ffffff;min-height: 189px;">
+            <div class="col-md-12" style="margin-top:100px">
+                <div class="row">
+                    <div class="col-md-12 pag" id="one">
+                        <div class="warp col-md-12 center-block " style="float:none">
+                            <div class="col-md-2 tag" style="padding-left: 0px;padding-right: 0px;">
+                                <div>
+                                    <h5 style="float:left;">词性类别</h5>
+                                </div>
+                                <div class="clearfix"></div>
+                                <ul>
+                                    <li>
+                                        <div class="n0"><a class="on">名词</a></div>
+                                        <div class="n1"><a class="on1">动词</a></div>
+                                        <div class="n15"><a class="on2">介词</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="n21"><a class="on3">后缀</a></div>
+                                        <div class="n6"><a class="on4">代词</a></div>
+                                        <div class="n5"><a class="on5">数词</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="n16"><a class="on6">连词</a></div>
+                                        <div class="n17"><a class="on7">助词</a></div>
+                                        <div class="n18"><a class="on8">叹词</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="n20"><a class="on9">前缀</a></div>
+                                        <div class="n10"><a class="on10">量词</a></div>
+                                        <div class="n11"><a class="on11">副词</a></div>
+                                    </li>
+                                    <li class="ali">
+                                        <div class="n12"><a class="on12">语气词</a></div>
+                                        <div class="n13"><a class="on13">拟声词</a></div>
+                                    </li>
+                                    <li class="ali">
+                                        <div class="n14"><a class="on14">字符串</a></div>
+                                        <div class="n2"><a class="on15">形容词</a></div>
+                                    </li>
+                                    <li class="ali">
+                                       <div class="n3"> <a class="on16">时间词</a></div>
+                                       <div class="n7"> <a class="on17">处所词</a></div>
+                                    </li>
+                                    <li class="ali">
+                                       <div class="n8"> <a class="on18">区别词</a></div>
+                                      <div class="n4">  <a class="on19">方位词</a></div>
+                                    </li>
+                                    <li class="ali">
+                                       <div class="n9"> <a class="on20">状态词</a></div>
+                                       <div class="n19"> <a class="on21">标点符号</a></div>
+                                    </li>
+                                    <li class="ali">
+                                      <div class="n22">  <a class="on22">自定义词</a></div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="text" id="fenci1"><div class="n0">吴金明/nr</div></div>
+                            </div>
+                            <div class="col-md-2">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 pag" id="two">
+                        <div class="warp-2 col-md-11 center-block" style="float:none;padding-left: 0px;padding-right: 0px;">
+                            <div class="radius-2"></div> 
+                            <div class="col-md-2 box" style="padding-left: 0px;padding-right: 0px;">
+                                <ul class="ul3">
+                                    <li id="tb2">
+                                        <a href="javascript:void(0); "></a>
+                                    </li>
+                                    <li id="wb2">
+                                        <a href="javascript:void(0); "></a>
+                                    </li>
+                                    <li>
+                                        <a href="http://ictclas.nlpir.org/nlpir/html/chouqu-2.html" target="_black" style="display:table;"></a>
+                                    </li>
+                                </ul>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="/static/js/jquery-1.4.4.min.js"></script>
+	<script type="text/javascript" src="/static/js/jQuery.Hz2Py-min.js"></script>
+
+	<script src="/static/js/d3.js"></script>
+	<script src="/static/js/d3.layout.cloud.js"></script>
+	
+
+	<script src="/static/js/swfobject.js"></script>
+	
+
+	<script src="/static/js/indexs.js"></script>
+
+
+</body>
+            <script type="text/javascript" src="/static/js/jquery.min(1).js"></script>
+            <script type="text/javascript" src="/static/js/jquery.svg.min.js"></script>
+            <script type="text/javascript" src="/static/js/jquery.svgdom.min.js"></script>
+            <script type="text/javascript" src="/static/js/configuration.js"></script>
+            <script type="text/javascript" src="/static/js/util.js"></script>
+            <script type="text/javascript" src="/static/js/annotation_log.js"></script>
+            <script type="text/javascript" src="/static/js/webfont.js"></script>
+            <script type="text/javascript" src="/static/js/dispatcher.js"></script>
+            <script type="text/javascript" src="/static/js/url_monitor.js"></script>
+            <script type="text/javascript" src="/static/js/visualizer.js"></script>
+</html>

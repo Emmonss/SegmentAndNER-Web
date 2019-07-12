@@ -1,0 +1,242 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>分词系统</title>
+     <link href="/static/js/bootstrap.min.css" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="/static/js/site.min.css">
+    <link type="text/css" rel="stylesheet" href="/static/js/index.css">
+
+    <script type="text/javascript">
+		function g(x){
+            var d=document.getElementsByTagName('li');
+            var text = document.getElementById("mood");
+            for(p=d.length;p--;){
+                if(d[p].id!=x){
+                    d[p].style.backgroundColor='#dddee2';
+                }
+                else{
+                    d[p].style.backgroundColor='#ffffff';
+                }
+            }
+
+            for(p=d.length;p--;){
+                if(d[p].id==x){
+                    text.value = d[p].id;
+                }
+            }
+    }
+    </script>
+
+
+    <script src="/static/js/jquery.js"></script>
+    <script>
+            $(document).ready(function () {
+                $("#btn").click(function () {
+                    var input1 = $("#input1").val();
+                    var mood = $("#mood").val();
+                    $.get("/demo_add/", { 'input1': input1, 'mood': mood}, function (ret) {
+                        $('#fenci1').html(ret)
+                    })
+                });
+            });
+    </script>
+
+    <script>
+        $(document).ready(function(e){
+
+            $("#hmm").click(function(e){
+                $("#fenci1").empty();
+                $("#CiXing").hide();
+                $("#NERres").hide();
+                $("#SEGres").show();
+            });
+
+            $("#crf").click(function(e){
+                $("#fenci1").empty();
+                $("#CiXing").hide();
+                $("#NERres").hide();
+                $("#SEGres").show();
+            });
+
+            $("#crf2").click(function(e){
+                $("#fenci1").empty();
+                $("#CiXing").show();
+                $("#NERres").hide();
+                $("#SEGres").hide();
+            });
+
+            $("#BiLSTM1").click(function(e){
+                $("#fenci1").empty();
+                $("#CiXing").hide();
+                $("#NERres").hide();
+                $("#SEGres").show();
+            });
+
+            $("#BiLSTM2").click(function(e){
+                $("#fenci1").empty();
+                $("#CiXing").hide();
+                $("#NERres").show();
+                $("#SEGres").hide();
+            });
+        });
+    </script>
+
+
+
+</head>
+
+<body style="zoom: 1;">
+    <div class="header" style="background:#000000;min-height: 189px;">
+        <div>
+            <a href="https://github.com/Emmonss" target="_black">
+                <img style="position: absolute; top: 0; right: 0; border: 0;" src="/static/js/github.png" alt="Fork me on GitHub">
+            </a>
+        </div>
+
+    </div>
+
+
+
+    <div class="container-fluid">
+        <div class="row" style="position:relative;background:#dddee2;padding-bottom:6%;">
+            <div class="col-md-12 center-block">
+                <div class="col-md-12">
+                    <ul class="nav nav-pills" style="margin-left:4%;font-size: 16px;color: #000;line-height: 34px;">
+                        <li role="presentation" onclick='g(this.id)' id=hmm style="background:#ffffff"><a target="_black">HMM-分词</a></li>
+                        <li role="presentation" onclick='g(this.id)' id=crf><a  target="_black">CRF-分词</a></li>
+                        <li role="presentation" onclick='g(this.id)' id=crf2><a  target="_black">CRF-词性标注</a></li>
+                        <li role="presentation" onclick='g(this.id)' id=BiLSTM1><a  target="_black">BiLSTM-分词</a></li>
+                        <li role="presentation" onclick='g(this.id)' id=BiLSTM2><a  target="_black">BiLSTM-实体识别</a></li>
+                    </ul>
+                </div>
+                    <form action="/demo_add/" method="get">
+                            <div class="col-md-12 center-block">
+                                <div class="row">
+
+                                    <div class="col-md-11 center-block" style="float:none;padding-left: 0px;padding-right: 0px;">
+                                        <textarea id=input1 class="form-control" rows="16" value="原标题"></textarea>
+                                        <div id="transform" style="display: none;">原标题：</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 center-block">
+                                <div style="width:8%;float:left;margin-left:46%;margin-top:25px" >
+                                    <input type = "text" name= "mood" id =mood value="hmm" style="display:none"/>
+                                    <button type="button" id=btn class="btn btn-primary">开始分析</button>
+                                </div>
+                            </div>
+                    </form>
+            </div>
+        </div>
+        <div class="row" style="background:#ffffff;min-height: 189px;">
+            <div class="col-md-12" style="margin-top:100px">
+                <div class="row">
+                    <div class="col-md-12 pag" id="one">
+                        <div class="warp col-md-12 center-block " style="float:none">
+
+                            <!--分词显示 -->
+                            <div class="col-md-2 tag" id=SEGres style="padding-left: 0px;padding-right: 0px;">
+                                <div>
+                                    <h4 style="float:left;">分词显示</h4>
+                                </div>
+                                <div class="clearfix"></div>
+                                <ul>
+                                    <li class="ali">
+                                       <div class="n19"> <a class="on21">单词</a></div>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                             <!--实体显示 -->
+                            <div class="col-md-2 tag" id=NERres style="padding-left: 0px;padding-right: 0px;display:none">
+                                <div>
+                                    <h4 style="float:left;">实体显示</h4>
+                                </div>
+                                <div class="clearfix"></div>
+                                <ul>
+                                    <li class="ali">
+                                       <div class="n21"> <a class="on3">人名</a></div>
+                                    </li>
+                                    <li class="ali">
+                                       <div class="n15"> <a class="on2">地名</a></div>
+                                    </li>
+                                    <li class="ali">
+                                       <div class="n14"><a class="on14">机构名</a></div>
+                                    </li>
+                                    <li class="ali">
+                                        <div class="n19"> <a class="on21">其他词</a></div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                             <!--词性标注显示 -->
+                            <div class="col-md-2 tag" id= CiXing style="padding-left: 0px;padding-right: 0px;display:none">
+                                <div>
+                                    <h4 style="float:left;">词性类别</h4>
+                                </div>
+                                <div class="clearfix"></div>
+                                <ul>
+                                    <li>
+                                        <div class="n0"><a class="on">名词</a></div>
+                                        <div class="n1"><a class="on1">动词</a></div>
+                                        <div class="n15"><a class="on2">介词</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="n21"><a class="on3">后缀</a></div>
+                                        <div class="n6"><a class="on4">代词</a></div>
+                                        <div class="n5"><a class="on5">数词</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="n16"><a class="on6">连词</a></div>
+                                        <div class="n17"><a class="on7">助词</a></div>
+                                        <div class="n18"><a class="on8">叹词</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="n20"><a class="on9">前缀</a></div>
+                                        <div class="n10"><a class="on10">量词</a></div>
+                                        <div class="n11"><a class="on11">副词</a></div>
+                                    </li>
+                                    <li class="ali">
+                                        <div class="n12"><a class="on12">语气词</a></div>
+                                        <div class="n13"><a class="on13">拟声词</a></div>
+                                    </li>
+                                    <li class="ali">
+                                        <div class="n14"><a class="on14">字符串</a></div>
+                                        <div class="n2"><a class="on15">形容词</a></div>
+                                    </li>
+                                    <li class="ali">
+                                       <div class="n3"> <a class="on16">时间词</a></div>
+                                       <div class="n7"> <a class="on17">处所词</a></div>
+                                    </li>
+                                    <li class="ali">
+                                       <div class="n8"> <a class="on18">区别词</a></div>
+                                      <div class="n4">  <a class="on19">方位词</a></div>
+                                    </li>
+                                    <li class="ali">
+                                       <div class="n9"> <a class="on20">状态词</a></div>
+                                       <div class="n19"> <a class="on21">标点符号</a></div>
+                                    </li>
+                                    <li class="ali">
+                                      <div class="n23"><a class="on23">成语</a></div>
+                                      <div class="n22">  <a class="on22">其他词</a></div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="col-md-8">
+                                <div class="text" id=fenci1></div>
+                            </div>
+                            <div class="col-md-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

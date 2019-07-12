@@ -1,0 +1,1303 @@
+2019-07-09 12:46:22,862:INFO: Namespace(CRF=True, batch_size=32, clip=5.0, demo_model='1516849095', dropout=0.5, embedding_dim=300, epoch=30, hidden_dim=100, lr=0.001, mode='train', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='ProcessData', train_data='ProcessData', update_embedding=True)
+2019-07-09 12:46:33,324:INFO: 2019-07-09 12:46:31 epoch 1, step 1, loss: 78.73, global_step: 1
+2019-07-09 12:46:33,324:INFO: 2019-07-09 12:46:31 epoch 1, step 1, loss: 78.73, global_step: 1
+2019-07-09 12:54:46,611:INFO: 2019-07-09 12:46:31 epoch 1, step 1000, loss: 15.33, global_step: 1000
+2019-07-09 12:54:46,611:INFO: 2019-07-09 12:46:31 epoch 1, step 1000, loss: 15.33, global_step: 1000
+2019-07-09 13:02:37,134:INFO: 2019-07-09 12:46:31 epoch 1, step 2000, loss: 10.53, global_step: 2000
+2019-07-09 13:02:37,134:INFO: 2019-07-09 12:46:31 epoch 1, step 2000, loss: 10.53, global_step: 2000
+2019-07-09 13:07:52,547:INFO: 2019-07-09 12:46:31 epoch 1, step 2717, loss: 11.87, global_step: 2717
+2019-07-09 13:07:52,547:INFO: 2019-07-09 12:46:31 epoch 1, step 2717, loss: 11.87, global_step: 2717
+2019-07-09 13:07:53,298:INFO: ===========validation===========
+2019-07-09 13:07:53,298:INFO: ===========validation===========
+2019-07-09 13:08:17,011:INFO: 2019-07-09 13:08:16 epoch 2, step 1, loss: 5.335, global_step: 2718
+2019-07-09 13:08:17,011:INFO: 2019-07-09 13:08:16 epoch 2, step 1, loss: 5.335, global_step: 2718
+2019-07-09 13:16:43,942:INFO: 2019-07-09 13:08:16 epoch 2, step 1000, loss: 6.432, global_step: 3717
+2019-07-09 13:16:43,942:INFO: 2019-07-09 13:08:16 epoch 2, step 1000, loss: 6.432, global_step: 3717
+2019-07-09 13:25:07,833:INFO: 2019-07-09 13:08:16 epoch 2, step 2000, loss: 6.621, global_step: 4717
+2019-07-09 13:25:07,833:INFO: 2019-07-09 13:08:16 epoch 2, step 2000, loss: 6.621, global_step: 4717
+2019-07-09 13:30:49,227:INFO: 2019-07-09 13:08:16 epoch 2, step 2717, loss: 9.216, global_step: 5434
+2019-07-09 13:30:49,227:INFO: 2019-07-09 13:08:16 epoch 2, step 2717, loss: 9.216, global_step: 5434
+2019-07-09 13:30:49,797:INFO: ===========validation===========
+2019-07-09 13:30:49,797:INFO: ===========validation===========
+2019-07-09 13:31:16,133:INFO: 2019-07-09 13:31:15 epoch 3, step 1, loss: 4.669, global_step: 5435
+2019-07-09 13:31:16,133:INFO: 2019-07-09 13:31:15 epoch 3, step 1, loss: 4.669, global_step: 5435
+2019-07-09 13:39:15,088:INFO: 2019-07-09 13:31:15 epoch 3, step 1000, loss: 5.853, global_step: 6434
+2019-07-09 13:39:15,088:INFO: 2019-07-09 13:31:15 epoch 3, step 1000, loss: 5.853, global_step: 6434
+2019-07-09 13:47:33,791:INFO: 2019-07-09 13:31:15 epoch 3, step 2000, loss: 4.87, global_step: 7434
+2019-07-09 13:47:33,791:INFO: 2019-07-09 13:31:15 epoch 3, step 2000, loss: 4.87, global_step: 7434
+2019-07-09 13:53:02,083:INFO: 2019-07-09 13:31:15 epoch 3, step 2717, loss: 4.653, global_step: 8151
+2019-07-09 13:53:02,083:INFO: 2019-07-09 13:31:15 epoch 3, step 2717, loss: 4.653, global_step: 8151
+2019-07-09 13:53:02,596:INFO: ===========validation===========
+2019-07-09 13:53:02,596:INFO: ===========validation===========
+2019-07-09 13:53:25,866:INFO: 2019-07-09 13:53:25 epoch 4, step 1, loss: 4.529, global_step: 8152
+2019-07-09 13:53:25,866:INFO: 2019-07-09 13:53:25 epoch 4, step 1, loss: 4.529, global_step: 8152
+2019-07-09 14:00:52,357:INFO: 2019-07-09 13:53:25 epoch 4, step 1000, loss: 4.664, global_step: 9151
+2019-07-09 14:00:52,357:INFO: 2019-07-09 13:53:25 epoch 4, step 1000, loss: 4.664, global_step: 9151
+2019-07-09 14:06:26,675:INFO: 2019-07-09 13:53:25 epoch 4, step 2000, loss: 5.584, global_step: 10151
+2019-07-09 14:06:26,675:INFO: 2019-07-09 13:53:25 epoch 4, step 2000, loss: 5.584, global_step: 10151
+2019-07-09 14:10:45,700:INFO: 2019-07-09 13:53:25 epoch 4, step 2717, loss: 5.593, global_step: 10868
+2019-07-09 14:10:45,700:INFO: 2019-07-09 13:53:25 epoch 4, step 2717, loss: 5.593, global_step: 10868
+2019-07-09 14:10:46,178:INFO: ===========validation===========
+2019-07-09 14:10:46,178:INFO: ===========validation===========
+2019-07-09 14:11:04,952:INFO: 2019-07-09 14:11:04 epoch 5, step 1, loss: 4.807, global_step: 10869
+2019-07-09 14:11:04,952:INFO: 2019-07-09 14:11:04 epoch 5, step 1, loss: 4.807, global_step: 10869
+2019-07-09 14:17:05,250:INFO: 2019-07-09 14:11:04 epoch 5, step 1000, loss: 4.437, global_step: 11868
+2019-07-09 14:17:05,250:INFO: 2019-07-09 14:11:04 epoch 5, step 1000, loss: 4.437, global_step: 11868
+2019-07-09 14:23:08,230:INFO: 2019-07-09 14:11:04 epoch 5, step 2000, loss: 4.437, global_step: 12868
+2019-07-09 14:23:08,230:INFO: 2019-07-09 14:11:04 epoch 5, step 2000, loss: 4.437, global_step: 12868
+2019-07-09 14:27:17,951:INFO: 2019-07-09 14:11:04 epoch 5, step 2717, loss: 5.806, global_step: 13585
+2019-07-09 14:27:17,951:INFO: 2019-07-09 14:11:04 epoch 5, step 2717, loss: 5.806, global_step: 13585
+2019-07-09 14:27:18,444:INFO: ===========validation===========
+2019-07-09 14:27:18,444:INFO: ===========validation===========
+2019-07-09 14:27:36,891:INFO: 2019-07-09 14:27:36 epoch 6, step 1, loss: 4.516, global_step: 13586
+2019-07-09 14:27:36,891:INFO: 2019-07-09 14:27:36 epoch 6, step 1, loss: 4.516, global_step: 13586
+2019-07-09 14:33:14,957:INFO: 2019-07-09 14:27:36 epoch 6, step 1000, loss: 3.385, global_step: 14585
+2019-07-09 14:33:14,957:INFO: 2019-07-09 14:27:36 epoch 6, step 1000, loss: 3.385, global_step: 14585
+2019-07-09 14:38:54,511:INFO: 2019-07-09 14:27:36 epoch 6, step 2000, loss: 4.337, global_step: 15585
+2019-07-09 14:38:54,511:INFO: 2019-07-09 14:27:36 epoch 6, step 2000, loss: 4.337, global_step: 15585
+2019-07-09 14:43:03,926:INFO: 2019-07-09 14:27:36 epoch 6, step 2717, loss: 2.992, global_step: 16302
+2019-07-09 14:43:03,926:INFO: 2019-07-09 14:27:36 epoch 6, step 2717, loss: 2.992, global_step: 16302
+2019-07-09 14:43:04,489:INFO: ===========validation===========
+2019-07-09 14:43:04,489:INFO: ===========validation===========
+2019-07-09 14:43:22,716:INFO: 2019-07-09 14:43:22 epoch 7, step 1, loss: 3.88, global_step: 16303
+2019-07-09 14:43:22,716:INFO: 2019-07-09 14:43:22 epoch 7, step 1, loss: 3.88, global_step: 16303
+2019-07-09 14:48:59,421:INFO: 2019-07-09 14:43:22 epoch 7, step 1000, loss: 3.178, global_step: 17302
+2019-07-09 14:48:59,421:INFO: 2019-07-09 14:43:22 epoch 7, step 1000, loss: 3.178, global_step: 17302
+2019-07-09 14:54:41,486:INFO: 2019-07-09 14:43:22 epoch 7, step 2000, loss: 4.195, global_step: 18302
+2019-07-09 14:54:41,486:INFO: 2019-07-09 14:43:22 epoch 7, step 2000, loss: 4.195, global_step: 18302
+2019-07-09 14:58:46,047:INFO: 2019-07-09 14:43:22 epoch 7, step 2717, loss: 6.654, global_step: 19019
+2019-07-09 14:58:46,047:INFO: 2019-07-09 14:43:22 epoch 7, step 2717, loss: 6.654, global_step: 19019
+2019-07-09 14:58:46,558:INFO: ===========validation===========
+2019-07-09 14:58:46,558:INFO: ===========validation===========
+2019-07-09 14:59:05,223:INFO: 2019-07-09 14:59:04 epoch 8, step 1, loss: 2.929, global_step: 19020
+2019-07-09 14:59:05,223:INFO: 2019-07-09 14:59:04 epoch 8, step 1, loss: 2.929, global_step: 19020
+2019-07-09 15:05:16,109:INFO: 2019-07-09 14:59:04 epoch 8, step 1000, loss: 4.416, global_step: 20019
+2019-07-09 15:05:16,109:INFO: 2019-07-09 14:59:04 epoch 8, step 1000, loss: 4.416, global_step: 20019
+2019-07-09 15:11:05,205:INFO: 2019-07-09 14:59:04 epoch 8, step 2000, loss: 3.02, global_step: 21019
+2019-07-09 15:11:05,205:INFO: 2019-07-09 14:59:04 epoch 8, step 2000, loss: 3.02, global_step: 21019
+2019-07-09 15:15:05,783:INFO: 2019-07-09 14:59:04 epoch 8, step 2717, loss: 3.012, global_step: 21736
+2019-07-09 15:15:05,783:INFO: 2019-07-09 14:59:04 epoch 8, step 2717, loss: 3.012, global_step: 21736
+2019-07-09 15:15:06,326:INFO: ===========validation===========
+2019-07-09 15:15:06,326:INFO: ===========validation===========
+2019-07-09 15:15:24,265:INFO: 2019-07-09 15:15:23 epoch 9, step 1, loss: 3.881, global_step: 21737
+2019-07-09 15:15:24,265:INFO: 2019-07-09 15:15:23 epoch 9, step 1, loss: 3.881, global_step: 21737
+2019-07-09 15:21:11,042:INFO: 2019-07-09 15:15:23 epoch 9, step 1000, loss: 3.521, global_step: 22736
+2019-07-09 15:21:11,042:INFO: 2019-07-09 15:15:23 epoch 9, step 1000, loss: 3.521, global_step: 22736
+2019-07-09 15:26:56,330:INFO: 2019-07-09 15:15:23 epoch 9, step 2000, loss: 3.571, global_step: 23736
+2019-07-09 15:26:56,330:INFO: 2019-07-09 15:15:23 epoch 9, step 2000, loss: 3.571, global_step: 23736
+2019-07-09 15:31:16,173:INFO: 2019-07-09 15:15:23 epoch 9, step 2717, loss: 3.81, global_step: 24453
+2019-07-09 15:31:16,173:INFO: 2019-07-09 15:15:23 epoch 9, step 2717, loss: 3.81, global_step: 24453
+2019-07-09 15:31:16,694:INFO: ===========validation===========
+2019-07-09 15:31:16,694:INFO: ===========validation===========
+2019-07-09 15:31:36,147:INFO: 2019-07-09 15:31:34 epoch 10, step 1, loss: 3.147, global_step: 24454
+2019-07-09 15:31:36,147:INFO: 2019-07-09 15:31:34 epoch 10, step 1, loss: 3.147, global_step: 24454
+2019-07-09 15:37:37,170:INFO: 2019-07-09 15:31:34 epoch 10, step 1000, loss: 4.346, global_step: 25453
+2019-07-09 15:37:37,170:INFO: 2019-07-09 15:31:34 epoch 10, step 1000, loss: 4.346, global_step: 25453
+2019-07-09 15:43:50,323:INFO: 2019-07-09 15:31:34 epoch 10, step 2000, loss: 4.046, global_step: 26453
+2019-07-09 15:43:50,323:INFO: 2019-07-09 15:31:34 epoch 10, step 2000, loss: 4.046, global_step: 26453
+2019-07-09 15:48:25,184:INFO: 2019-07-09 15:31:34 epoch 10, step 2717, loss: 5.89, global_step: 27170
+2019-07-09 15:48:25,184:INFO: 2019-07-09 15:31:34 epoch 10, step 2717, loss: 5.89, global_step: 27170
+2019-07-09 15:48:25,694:INFO: ===========validation===========
+2019-07-09 15:48:25,694:INFO: ===========validation===========
+2019-07-09 15:48:46,631:INFO: 2019-07-09 15:48:46 epoch 11, step 1, loss: 4.444, global_step: 27171
+2019-07-09 15:48:46,631:INFO: 2019-07-09 15:48:46 epoch 11, step 1, loss: 4.444, global_step: 27171
+2019-07-09 15:55:12,330:INFO: 2019-07-09 15:48:46 epoch 11, step 1000, loss: 3.317, global_step: 28170
+2019-07-09 15:55:12,330:INFO: 2019-07-09 15:48:46 epoch 11, step 1000, loss: 3.317, global_step: 28170
+2019-07-09 15:56:46,654:INFO: Namespace(CRF=True, batch_size=32, clip=5.0, demo_model='1516849095', dropout=0.5, embedding_dim=300, epoch=30, hidden_dim=100, lr=0.001, mode='train', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='ProcessData', train_data='ProcessData', update_embedding=True)
+2019-07-09 15:56:51,591:INFO: =========== testing ===========
+2019-07-09 15:56:51,591:INFO: =========== testing ===========
+2019-07-09 15:56:51,594:INFO: Restoring parameters from .\ProcessData_save\1558343713\checkpoints/model-27170
+2019-07-09 15:56:51,594:INFO: Restoring parameters from .\ProcessData_save\1558343713\checkpoints/model-27170
+2019-07-09 15:57:33,958:INFO: Namespace(CRF=True, batch_size=32, clip=5.0, demo_model='1516849095', dropout=0.5, embedding_dim=300, epoch=30, hidden_dim=100, lr=0.001, mode='train', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='ProcessData', train_data='ProcessData', update_embedding=True)
+2019-07-09 15:57:34,227:ERROR: Couldn't match files for checkpoint .\ProcessData_save\1558343713\checkpoints/model-27170
+2019-07-09 15:57:37,419:INFO: =========== testing ===========
+2019-07-09 15:57:37,419:INFO: =========== testing ===========
+2019-07-09 15:58:05,728:INFO: Namespace(CRF=True, batch_size=32, clip=5.0, demo_model='1516849095', dropout=0.5, embedding_dim=300, epoch=30, hidden_dim=100, lr=0.001, mode='train', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='ProcessData', train_data='ProcessData', update_embedding=True)
+2019-07-09 15:58:09,163:INFO: =========== testing ===========
+2019-07-09 15:58:09,163:INFO: =========== testing ===========
+2019-07-09 15:58:09,165:INFO: Restoring parameters from .\ProcessData_save\1558343713\checkpoints/model-27170
+2019-07-09 15:58:09,165:INFO: Restoring parameters from .\ProcessData_save\1558343713\checkpoints/model-27170
+2019-07-09 16:08:36,098:INFO: Namespace(CRF=True, batch_size=32, clip=5.0, demo_model='1516849095', dropout=0.5, embedding_dim=300, epoch=30, hidden_dim=100, lr=0.001, mode='train', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='ProcessData', train_data='ProcessData', update_embedding=True)
+2019-07-09 16:08:42,735:INFO: =========== testing ===========
+2019-07-09 16:08:42,735:INFO: =========== testing ===========
+2019-07-09 16:08:42,739:INFO: Restoring parameters from .\ProcessData_save\1558343713\checkpoints/model-27170
+2019-07-09 16:08:42,739:INFO: Restoring parameters from .\ProcessData_save\1558343713\checkpoints/model-27170
+2019-07-09 16:12:07,862:INFO: Namespace(CRF=True, batch_size=32, clip=5.0, demo_model='1516849095', dropout=0.5, embedding_dim=300, epoch=30, hidden_dim=100, lr=0.001, mode='train', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='ProcessData', train_data='ProcessData', update_embedding=True)
+2019-07-09 16:12:10,692:INFO: Restoring parameters from .\ProcessData_save\1558343713\checkpoints/model-27170
+2019-07-09 16:12:10,692:INFO: Restoring parameters from .\ProcessData_save\1558343713\checkpoints/model-27170
+2019-07-09 16:13:08,255:INFO: Namespace(CRF=True, batch_size=32, clip=5.0, demo_model='1516849095', dropout=0.5, embedding_dim=300, epoch=30, hidden_dim=100, lr=0.001, mode='train', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='ProcessData', train_data='ProcessData', update_embedding=True)
+2019-07-09 16:13:11,121:INFO: Restoring parameters from .\ProcessData_save\1558343713\checkpoints/model-27170
+2019-07-09 16:13:11,121:INFO: Restoring parameters from .\ProcessData_save\1558343713\checkpoints/model-27170
+2019-07-09 16:16:53,362:INFO: Namespace(CRF=True, batch_size=32, clip=5.0, demo_model='1516849095', dropout=0.5, embedding_dim=300, epoch=30, hidden_dim=100, lr=0.001, mode='train', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='ProcessData', train_data='ProcessData', update_embedding=True)
+2019-07-09 16:16:56,168:INFO: Restoring parameters from .\ProcessData_save\1558343713\checkpoints/model-27170
+2019-07-09 16:16:56,168:INFO: Restoring parameters from .\ProcessData_save\1558343713\checkpoints/model-27170
+2019-07-09 16:20:41,995:INFO: Namespace(CRF=True, batch_size=32, clip=5.0, demo_model='1516849095', dropout=0.5, embedding_dim=300, epoch=30, hidden_dim=100, lr=0.001, mode='train', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='ProcessData', train_data='ProcessData', update_embedding=True)
+2019-07-09 16:20:44,793:INFO: Restoring parameters from .\ProcessData_save\1558343713\checkpoints/model-27170
+2019-07-09 16:20:44,793:INFO: Restoring parameters from .\ProcessData_save\1558343713\checkpoints/model-27170
+2019-07-09 16:41:39,387:INFO: Namespace(CRF=True, batch_size=32, clip=5.0, dropout=0.5, embedding_dim=300, epoch=30, hidden_dim=100, lr=0.001, optimizer='Adam', pretrain_embedding='random', shuffle=True, update_embedding=True)
+2019-07-09 16:41:42,326:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-09 16:41:42,326:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-09 16:42:11,617:INFO: Namespace(CRF=True, batch_size=32, clip=5.0, dropout=0.5, embedding_dim=300, epoch=30, hidden_dim=100, lr=0.001, optimizer='Adam', pretrain_embedding='random', shuffle=True, update_embedding=True)
+2019-07-09 16:42:14,507:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-09 16:42:14,507:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-09 16:45:06,266:INFO: Namespace(CRF=True, batch_size=32, clip=5.0, dropout=0.5, embedding_dim=300, epoch=30, hidden_dim=100, lr=0.001, optimizer='Adam', pretrain_embedding='random', shuffle=True, update_embedding=True)
+2019-07-09 16:45:09,207:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-09 16:45:09,207:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-09 16:48:41,089:INFO: Namespace(CRF=True, batch_size=32, clip=5.0, dropout=0.5, embedding_dim=300, epoch=30, hidden_dim=100, lr=0.001, optimizer='Adam', pretrain_embedding='random', shuffle=True, update_embedding=True)
+2019-07-09 16:48:44,002:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-09 16:48:44,002:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-09 16:50:37,466:INFO: Namespace(CRF=True, batch_size=32, clip=5.0, dropout=0.5, embedding_dim=300, epoch=30, hidden_dim=100, lr=0.001, optimizer='Adam', pretrain_embedding='random', shuffle=True, update_embedding=True)
+2019-07-09 16:50:40,343:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-09 16:50:40,343:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-09 16:51:11,337:INFO: Namespace(CRF=True, batch_size=32, clip=5.0, dropout=0.5, embedding_dim=300, epoch=30, hidden_dim=100, lr=0.001, optimizer='Adam', pretrain_embedding='random', shuffle=True, update_embedding=True)
+2019-07-09 16:51:14,234:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-09 16:51:14,234:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-09 16:52:27,951:INFO: Namespace(CRF=True, batch_size=32, clip=5.0, dropout=0.5, embedding_dim=300, epoch=30, hidden_dim=100, lr=0.001, optimizer='Adam', pretrain_embedding='random', shuffle=True, update_embedding=True)
+2019-07-09 16:52:30,914:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-09 16:52:30,914:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-09 16:54:01,619:INFO: Namespace(CRF=True, batch_size=32, clip=5.0, dropout=0.5, embedding_dim=300, epoch=30, hidden_dim=100, lr=0.001, optimizer='Adam', pretrain_embedding='random', shuffle=True, update_embedding=True)
+2019-07-09 16:54:04,645:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-09 16:54:04,645:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-09 16:54:39,477:INFO: Namespace(CRF=True, batch_size=32, clip=5.0, dropout=0.5, embedding_dim=300, epoch=30, hidden_dim=100, lr=0.001, optimizer='Adam', pretrain_embedding='random', shuffle=True, update_embedding=True)
+2019-07-09 16:54:42,560:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-09 16:54:42,560:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-09 16:55:31,966:INFO: Namespace(CRF=True, batch_size=32, clip=5.0, dropout=0.5, embedding_dim=300, epoch=30, hidden_dim=100, lr=0.001, optimizer='Adam', pretrain_embedding='random', shuffle=True, update_embedding=True)
+2019-07-09 16:55:34,916:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-09 16:55:34,916:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-09 16:59:37,883:INFO: Namespace(CRF=True, batch_size=32, clip=5.0, dropout=0.5, embedding_dim=300, epoch=30, hidden_dim=100, lr=0.001, optimizer='Adam', pretrain_embedding='random', shuffle=True, update_embedding=True)
+2019-07-09 17:07:20,154:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-09 17:08:16,568:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-09 17:08:23,906:ERROR: Internal Server Error: /demo_add/
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\python_code\Djangotest2\cmdb\views.py", line 50, in demo_add
+    res =seg2html(bicrfseg(demo_sent=input1))
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM_Segment.py", line 48, in predict_random
+    model.build_graph()
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM\BiLSTM_Model.py", line 58, in build_graph
+    self.biLSTM_layer_op()
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM\BiLSTM_Model.py", line 94, in biLSTM_layer_op
+    dtype=tf.float32)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 439, in bidirectional_dynamic_rnn
+    time_major=time_major, scope=fw_scope)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 664, in dynamic_rnn
+    dtype=dtype)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 868, in _dynamic_rnn_loop
+    swap_memory=swap_memory)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 3274, in while_loop
+    return_same_structure)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 2994, in BuildLoop
+    pred, body, original_loop_vars, loop_vars, shape_invariants)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 2929, in _BuildLoop
+    body_result = body(*packed_vars_for_body)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 3243, in <lambda>
+    body = lambda i, lv: (i + 1, orig_body(*lv))
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 834, in _time_step
+    skip_conditionals=True)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 275, in _rnn_step
+    new_output, new_state = call_cell()
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 822, in <lambda>
+    call_cell = lambda: cell(input_t, state)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn_cell_impl.py", line 370, in __call__
+    *args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\layers\base.py", line 364, in __call__
+    outputs = super(Layer, self).__call__(inputs, *args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\engine\base_layer.py", line 759, in __call__
+    self.build(input_shapes)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\utils\tf_utils.py", line 149, in wrapper
+    output_shape = fn(instance, input_shape)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn_cell_impl.py", line 923, in build
+    partitioner=maybe_partitioner)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\engine\base_layer.py", line 472, in add_variable
+    return self.add_weight(*args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\layers\base.py", line 278, in add_weight
+    getter=vs.get_variable)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\engine\base_layer.py", line 586, in add_weight
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\training\checkpointable\base.py", line 591, in _add_variable_with_custom_getter
+    **kwargs_for_getter)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 1484, in get_variable
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 1234, in get_variable
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 538, in get_variable
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 492, in _true_getter
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 859, in _get_single_variable
+    name, "".join(traceback.format_list(tb))))
+ValueError: Variable bi-lstm/bidirectional_rnn/fw/lstm_cell/kernel already exists, disallowed. Did you mean to set reuse=True or reuse=tf.AUTO_REUSE in VarScope? Originally defined at:
+
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\framework\ops.py", line 1768, in __init__
+    self._traceback = tf_stack.extract_stack()
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\framework\ops.py", line 3272, in create_op
+    op_def=op_def)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\util\deprecation.py", line 488, in new_func
+    return func(*args, **kwargs)
+
+2019-07-09 17:08:23,906:ERROR: Internal Server Error: /demo_add/
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\python_code\Djangotest2\cmdb\views.py", line 50, in demo_add
+    res =seg2html(bicrfseg(demo_sent=input1))
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM_Segment.py", line 48, in predict_random
+    model.build_graph()
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM\BiLSTM_Model.py", line 58, in build_graph
+    self.biLSTM_layer_op()
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM\BiLSTM_Model.py", line 94, in biLSTM_layer_op
+    dtype=tf.float32)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 439, in bidirectional_dynamic_rnn
+    time_major=time_major, scope=fw_scope)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 664, in dynamic_rnn
+    dtype=dtype)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 868, in _dynamic_rnn_loop
+    swap_memory=swap_memory)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 3274, in while_loop
+    return_same_structure)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 2994, in BuildLoop
+    pred, body, original_loop_vars, loop_vars, shape_invariants)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 2929, in _BuildLoop
+    body_result = body(*packed_vars_for_body)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 3243, in <lambda>
+    body = lambda i, lv: (i + 1, orig_body(*lv))
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 834, in _time_step
+    skip_conditionals=True)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 275, in _rnn_step
+    new_output, new_state = call_cell()
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 822, in <lambda>
+    call_cell = lambda: cell(input_t, state)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn_cell_impl.py", line 370, in __call__
+    *args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\layers\base.py", line 364, in __call__
+    outputs = super(Layer, self).__call__(inputs, *args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\engine\base_layer.py", line 759, in __call__
+    self.build(input_shapes)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\utils\tf_utils.py", line 149, in wrapper
+    output_shape = fn(instance, input_shape)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn_cell_impl.py", line 923, in build
+    partitioner=maybe_partitioner)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\engine\base_layer.py", line 472, in add_variable
+    return self.add_weight(*args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\layers\base.py", line 278, in add_weight
+    getter=vs.get_variable)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\engine\base_layer.py", line 586, in add_weight
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\training\checkpointable\base.py", line 591, in _add_variable_with_custom_getter
+    **kwargs_for_getter)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 1484, in get_variable
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 1234, in get_variable
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 538, in get_variable
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 492, in _true_getter
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 859, in _get_single_variable
+    name, "".join(traceback.format_list(tb))))
+ValueError: Variable bi-lstm/bidirectional_rnn/fw/lstm_cell/kernel already exists, disallowed. Did you mean to set reuse=True or reuse=tf.AUTO_REUSE in VarScope? Originally defined at:
+
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\framework\ops.py", line 1768, in __init__
+    self._traceback = tf_stack.extract_stack()
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\framework\ops.py", line 3272, in create_op
+    op_def=op_def)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\util\deprecation.py", line 488, in new_func
+    return func(*args, **kwargs)
+
+2019-07-09 17:09:38,868:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-09 17:09:48,586:ERROR: Internal Server Error: /demo_add/
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\python_code\Djangotest2\cmdb\views.py", line 50, in demo_add
+    res =seg2html(bicrfseg(demo_sent=input1))
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM_Segment.py", line 48, in predict_random
+    model.build_graph()
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM\BiLSTM_Model.py", line 58, in build_graph
+    self.biLSTM_layer_op()
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM\BiLSTM_Model.py", line 94, in biLSTM_layer_op
+    dtype=tf.float32)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 439, in bidirectional_dynamic_rnn
+    time_major=time_major, scope=fw_scope)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 664, in dynamic_rnn
+    dtype=dtype)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 868, in _dynamic_rnn_loop
+    swap_memory=swap_memory)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 3274, in while_loop
+    return_same_structure)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 2994, in BuildLoop
+    pred, body, original_loop_vars, loop_vars, shape_invariants)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 2929, in _BuildLoop
+    body_result = body(*packed_vars_for_body)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 3243, in <lambda>
+    body = lambda i, lv: (i + 1, orig_body(*lv))
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 834, in _time_step
+    skip_conditionals=True)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 275, in _rnn_step
+    new_output, new_state = call_cell()
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 822, in <lambda>
+    call_cell = lambda: cell(input_t, state)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn_cell_impl.py", line 370, in __call__
+    *args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\layers\base.py", line 364, in __call__
+    outputs = super(Layer, self).__call__(inputs, *args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\engine\base_layer.py", line 759, in __call__
+    self.build(input_shapes)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\utils\tf_utils.py", line 149, in wrapper
+    output_shape = fn(instance, input_shape)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn_cell_impl.py", line 923, in build
+    partitioner=maybe_partitioner)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\engine\base_layer.py", line 472, in add_variable
+    return self.add_weight(*args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\layers\base.py", line 278, in add_weight
+    getter=vs.get_variable)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\engine\base_layer.py", line 586, in add_weight
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\training\checkpointable\base.py", line 591, in _add_variable_with_custom_getter
+    **kwargs_for_getter)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 1484, in get_variable
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 1234, in get_variable
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 538, in get_variable
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 492, in _true_getter
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 859, in _get_single_variable
+    name, "".join(traceback.format_list(tb))))
+ValueError: Variable bi-lstm/bidirectional_rnn/fw/lstm_cell/kernel already exists, disallowed. Did you mean to set reuse=True or reuse=tf.AUTO_REUSE in VarScope? Originally defined at:
+
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\framework\ops.py", line 1768, in __init__
+    self._traceback = tf_stack.extract_stack()
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\framework\ops.py", line 3272, in create_op
+    op_def=op_def)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\util\deprecation.py", line 488, in new_func
+    return func(*args, **kwargs)
+
+2019-07-09 17:09:48,586:ERROR: Internal Server Error: /demo_add/
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\python_code\Djangotest2\cmdb\views.py", line 50, in demo_add
+    res =seg2html(bicrfseg(demo_sent=input1))
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM_Segment.py", line 48, in predict_random
+    model.build_graph()
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM\BiLSTM_Model.py", line 58, in build_graph
+    self.biLSTM_layer_op()
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM\BiLSTM_Model.py", line 94, in biLSTM_layer_op
+    dtype=tf.float32)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 439, in bidirectional_dynamic_rnn
+    time_major=time_major, scope=fw_scope)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 664, in dynamic_rnn
+    dtype=dtype)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 868, in _dynamic_rnn_loop
+    swap_memory=swap_memory)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 3274, in while_loop
+    return_same_structure)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 2994, in BuildLoop
+    pred, body, original_loop_vars, loop_vars, shape_invariants)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 2929, in _BuildLoop
+    body_result = body(*packed_vars_for_body)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 3243, in <lambda>
+    body = lambda i, lv: (i + 1, orig_body(*lv))
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 834, in _time_step
+    skip_conditionals=True)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 275, in _rnn_step
+    new_output, new_state = call_cell()
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 822, in <lambda>
+    call_cell = lambda: cell(input_t, state)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn_cell_impl.py", line 370, in __call__
+    *args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\layers\base.py", line 364, in __call__
+    outputs = super(Layer, self).__call__(inputs, *args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\engine\base_layer.py", line 759, in __call__
+    self.build(input_shapes)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\utils\tf_utils.py", line 149, in wrapper
+    output_shape = fn(instance, input_shape)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn_cell_impl.py", line 923, in build
+    partitioner=maybe_partitioner)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\engine\base_layer.py", line 472, in add_variable
+    return self.add_weight(*args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\layers\base.py", line 278, in add_weight
+    getter=vs.get_variable)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\engine\base_layer.py", line 586, in add_weight
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\training\checkpointable\base.py", line 591, in _add_variable_with_custom_getter
+    **kwargs_for_getter)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 1484, in get_variable
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 1234, in get_variable
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 538, in get_variable
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 492, in _true_getter
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 859, in _get_single_variable
+    name, "".join(traceback.format_list(tb))))
+ValueError: Variable bi-lstm/bidirectional_rnn/fw/lstm_cell/kernel already exists, disallowed. Did you mean to set reuse=True or reuse=tf.AUTO_REUSE in VarScope? Originally defined at:
+
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\framework\ops.py", line 1768, in __init__
+    self._traceback = tf_stack.extract_stack()
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\framework\ops.py", line 3272, in create_op
+    op_def=op_def)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\util\deprecation.py", line 488, in new_func
+    return func(*args, **kwargs)
+
+2019-07-09 17:09:53,247:ERROR: Internal Server Error: /demo_add/
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\python_code\Djangotest2\cmdb\views.py", line 50, in demo_add
+    res =seg2html(bicrfseg(demo_sent=input1))
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM_Segment.py", line 48, in predict_random
+    model.build_graph()
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM\BiLSTM_Model.py", line 58, in build_graph
+    self.biLSTM_layer_op()
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM\BiLSTM_Model.py", line 94, in biLSTM_layer_op
+    dtype=tf.float32)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 439, in bidirectional_dynamic_rnn
+    time_major=time_major, scope=fw_scope)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 664, in dynamic_rnn
+    dtype=dtype)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 868, in _dynamic_rnn_loop
+    swap_memory=swap_memory)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 3274, in while_loop
+    return_same_structure)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 2994, in BuildLoop
+    pred, body, original_loop_vars, loop_vars, shape_invariants)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 2929, in _BuildLoop
+    body_result = body(*packed_vars_for_body)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 3243, in <lambda>
+    body = lambda i, lv: (i + 1, orig_body(*lv))
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 834, in _time_step
+    skip_conditionals=True)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 275, in _rnn_step
+    new_output, new_state = call_cell()
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 822, in <lambda>
+    call_cell = lambda: cell(input_t, state)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn_cell_impl.py", line 370, in __call__
+    *args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\layers\base.py", line 364, in __call__
+    outputs = super(Layer, self).__call__(inputs, *args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\engine\base_layer.py", line 759, in __call__
+    self.build(input_shapes)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\utils\tf_utils.py", line 149, in wrapper
+    output_shape = fn(instance, input_shape)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn_cell_impl.py", line 923, in build
+    partitioner=maybe_partitioner)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\engine\base_layer.py", line 472, in add_variable
+    return self.add_weight(*args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\layers\base.py", line 278, in add_weight
+    getter=vs.get_variable)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\engine\base_layer.py", line 586, in add_weight
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\training\checkpointable\base.py", line 591, in _add_variable_with_custom_getter
+    **kwargs_for_getter)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 1484, in get_variable
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 1234, in get_variable
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 538, in get_variable
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 492, in _true_getter
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 859, in _get_single_variable
+    name, "".join(traceback.format_list(tb))))
+ValueError: Variable bi-lstm/bidirectional_rnn/fw/lstm_cell/kernel already exists, disallowed. Did you mean to set reuse=True or reuse=tf.AUTO_REUSE in VarScope? Originally defined at:
+
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\framework\ops.py", line 1768, in __init__
+    self._traceback = tf_stack.extract_stack()
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\framework\ops.py", line 3272, in create_op
+    op_def=op_def)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\util\deprecation.py", line 488, in new_func
+    return func(*args, **kwargs)
+
+2019-07-09 17:09:53,247:ERROR: Internal Server Error: /demo_add/
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\python_code\Djangotest2\cmdb\views.py", line 50, in demo_add
+    res =seg2html(bicrfseg(demo_sent=input1))
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM_Segment.py", line 48, in predict_random
+    model.build_graph()
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM\BiLSTM_Model.py", line 58, in build_graph
+    self.biLSTM_layer_op()
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM\BiLSTM_Model.py", line 94, in biLSTM_layer_op
+    dtype=tf.float32)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 439, in bidirectional_dynamic_rnn
+    time_major=time_major, scope=fw_scope)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 664, in dynamic_rnn
+    dtype=dtype)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 868, in _dynamic_rnn_loop
+    swap_memory=swap_memory)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 3274, in while_loop
+    return_same_structure)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 2994, in BuildLoop
+    pred, body, original_loop_vars, loop_vars, shape_invariants)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 2929, in _BuildLoop
+    body_result = body(*packed_vars_for_body)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 3243, in <lambda>
+    body = lambda i, lv: (i + 1, orig_body(*lv))
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 834, in _time_step
+    skip_conditionals=True)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 275, in _rnn_step
+    new_output, new_state = call_cell()
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 822, in <lambda>
+    call_cell = lambda: cell(input_t, state)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn_cell_impl.py", line 370, in __call__
+    *args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\layers\base.py", line 364, in __call__
+    outputs = super(Layer, self).__call__(inputs, *args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\engine\base_layer.py", line 759, in __call__
+    self.build(input_shapes)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\utils\tf_utils.py", line 149, in wrapper
+    output_shape = fn(instance, input_shape)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn_cell_impl.py", line 923, in build
+    partitioner=maybe_partitioner)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\engine\base_layer.py", line 472, in add_variable
+    return self.add_weight(*args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\layers\base.py", line 278, in add_weight
+    getter=vs.get_variable)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\engine\base_layer.py", line 586, in add_weight
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\training\checkpointable\base.py", line 591, in _add_variable_with_custom_getter
+    **kwargs_for_getter)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 1484, in get_variable
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 1234, in get_variable
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 538, in get_variable
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 492, in _true_getter
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 859, in _get_single_variable
+    name, "".join(traceback.format_list(tb))))
+ValueError: Variable bi-lstm/bidirectional_rnn/fw/lstm_cell/kernel already exists, disallowed. Did you mean to set reuse=True or reuse=tf.AUTO_REUSE in VarScope? Originally defined at:
+
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\framework\ops.py", line 1768, in __init__
+    self._traceback = tf_stack.extract_stack()
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\framework\ops.py", line 3272, in create_op
+    op_def=op_def)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\util\deprecation.py", line 488, in new_func
+    return func(*args, **kwargs)
+
+2019-07-09 17:09:53,247:ERROR: Internal Server Error: /demo_add/
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\python_code\Djangotest2\cmdb\views.py", line 50, in demo_add
+    res =seg2html(bicrfseg(demo_sent=input1))
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM_Segment.py", line 48, in predict_random
+    model.build_graph()
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM\BiLSTM_Model.py", line 58, in build_graph
+    self.biLSTM_layer_op()
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM\BiLSTM_Model.py", line 94, in biLSTM_layer_op
+    dtype=tf.float32)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 439, in bidirectional_dynamic_rnn
+    time_major=time_major, scope=fw_scope)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 664, in dynamic_rnn
+    dtype=dtype)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 868, in _dynamic_rnn_loop
+    swap_memory=swap_memory)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 3274, in while_loop
+    return_same_structure)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 2994, in BuildLoop
+    pred, body, original_loop_vars, loop_vars, shape_invariants)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 2929, in _BuildLoop
+    body_result = body(*packed_vars_for_body)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 3243, in <lambda>
+    body = lambda i, lv: (i + 1, orig_body(*lv))
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 834, in _time_step
+    skip_conditionals=True)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 275, in _rnn_step
+    new_output, new_state = call_cell()
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 822, in <lambda>
+    call_cell = lambda: cell(input_t, state)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn_cell_impl.py", line 370, in __call__
+    *args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\layers\base.py", line 364, in __call__
+    outputs = super(Layer, self).__call__(inputs, *args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\engine\base_layer.py", line 759, in __call__
+    self.build(input_shapes)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\utils\tf_utils.py", line 149, in wrapper
+    output_shape = fn(instance, input_shape)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn_cell_impl.py", line 923, in build
+    partitioner=maybe_partitioner)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\engine\base_layer.py", line 472, in add_variable
+    return self.add_weight(*args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\layers\base.py", line 278, in add_weight
+    getter=vs.get_variable)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\engine\base_layer.py", line 586, in add_weight
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\training\checkpointable\base.py", line 591, in _add_variable_with_custom_getter
+    **kwargs_for_getter)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 1484, in get_variable
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 1234, in get_variable
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 538, in get_variable
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 492, in _true_getter
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 859, in _get_single_variable
+    name, "".join(traceback.format_list(tb))))
+ValueError: Variable bi-lstm/bidirectional_rnn/fw/lstm_cell/kernel already exists, disallowed. Did you mean to set reuse=True or reuse=tf.AUTO_REUSE in VarScope? Originally defined at:
+
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\framework\ops.py", line 1768, in __init__
+    self._traceback = tf_stack.extract_stack()
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\framework\ops.py", line 3272, in create_op
+    op_def=op_def)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\util\deprecation.py", line 488, in new_func
+    return func(*args, **kwargs)
+
+2019-07-09 17:10:20,358:ERROR: Internal Server Error: /demo_add/
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\python_code\Djangotest2\cmdb\views.py", line 50, in demo_add
+    res =seg2html(bicrfseg(demo_sent=input1))
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM_Segment.py", line 48, in predict_random
+    model.build_graph()
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM\BiLSTM_Model.py", line 58, in build_graph
+    self.biLSTM_layer_op()
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM\BiLSTM_Model.py", line 94, in biLSTM_layer_op
+    dtype=tf.float32)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 439, in bidirectional_dynamic_rnn
+    time_major=time_major, scope=fw_scope)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 664, in dynamic_rnn
+    dtype=dtype)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 868, in _dynamic_rnn_loop
+    swap_memory=swap_memory)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 3274, in while_loop
+    return_same_structure)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 2994, in BuildLoop
+    pred, body, original_loop_vars, loop_vars, shape_invariants)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 2929, in _BuildLoop
+    body_result = body(*packed_vars_for_body)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 3243, in <lambda>
+    body = lambda i, lv: (i + 1, orig_body(*lv))
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 834, in _time_step
+    skip_conditionals=True)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 275, in _rnn_step
+    new_output, new_state = call_cell()
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 822, in <lambda>
+    call_cell = lambda: cell(input_t, state)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn_cell_impl.py", line 370, in __call__
+    *args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\layers\base.py", line 364, in __call__
+    outputs = super(Layer, self).__call__(inputs, *args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\engine\base_layer.py", line 759, in __call__
+    self.build(input_shapes)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\utils\tf_utils.py", line 149, in wrapper
+    output_shape = fn(instance, input_shape)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn_cell_impl.py", line 923, in build
+    partitioner=maybe_partitioner)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\engine\base_layer.py", line 472, in add_variable
+    return self.add_weight(*args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\layers\base.py", line 278, in add_weight
+    getter=vs.get_variable)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\engine\base_layer.py", line 586, in add_weight
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\training\checkpointable\base.py", line 591, in _add_variable_with_custom_getter
+    **kwargs_for_getter)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 1484, in get_variable
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 1234, in get_variable
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 538, in get_variable
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 492, in _true_getter
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 859, in _get_single_variable
+    name, "".join(traceback.format_list(tb))))
+ValueError: Variable bi-lstm/bidirectional_rnn/fw/lstm_cell/kernel already exists, disallowed. Did you mean to set reuse=True or reuse=tf.AUTO_REUSE in VarScope? Originally defined at:
+
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\framework\ops.py", line 1768, in __init__
+    self._traceback = tf_stack.extract_stack()
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\framework\ops.py", line 3272, in create_op
+    op_def=op_def)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\util\deprecation.py", line 488, in new_func
+    return func(*args, **kwargs)
+
+2019-07-09 17:10:20,358:ERROR: Internal Server Error: /demo_add/
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\python_code\Djangotest2\cmdb\views.py", line 50, in demo_add
+    res =seg2html(bicrfseg(demo_sent=input1))
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM_Segment.py", line 48, in predict_random
+    model.build_graph()
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM\BiLSTM_Model.py", line 58, in build_graph
+    self.biLSTM_layer_op()
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM\BiLSTM_Model.py", line 94, in biLSTM_layer_op
+    dtype=tf.float32)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 439, in bidirectional_dynamic_rnn
+    time_major=time_major, scope=fw_scope)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 664, in dynamic_rnn
+    dtype=dtype)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 868, in _dynamic_rnn_loop
+    swap_memory=swap_memory)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 3274, in while_loop
+    return_same_structure)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 2994, in BuildLoop
+    pred, body, original_loop_vars, loop_vars, shape_invariants)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 2929, in _BuildLoop
+    body_result = body(*packed_vars_for_body)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 3243, in <lambda>
+    body = lambda i, lv: (i + 1, orig_body(*lv))
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 834, in _time_step
+    skip_conditionals=True)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 275, in _rnn_step
+    new_output, new_state = call_cell()
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 822, in <lambda>
+    call_cell = lambda: cell(input_t, state)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn_cell_impl.py", line 370, in __call__
+    *args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\layers\base.py", line 364, in __call__
+    outputs = super(Layer, self).__call__(inputs, *args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\engine\base_layer.py", line 759, in __call__
+    self.build(input_shapes)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\utils\tf_utils.py", line 149, in wrapper
+    output_shape = fn(instance, input_shape)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn_cell_impl.py", line 923, in build
+    partitioner=maybe_partitioner)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\engine\base_layer.py", line 472, in add_variable
+    return self.add_weight(*args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\layers\base.py", line 278, in add_weight
+    getter=vs.get_variable)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\engine\base_layer.py", line 586, in add_weight
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\training\checkpointable\base.py", line 591, in _add_variable_with_custom_getter
+    **kwargs_for_getter)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 1484, in get_variable
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 1234, in get_variable
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 538, in get_variable
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 492, in _true_getter
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 859, in _get_single_variable
+    name, "".join(traceback.format_list(tb))))
+ValueError: Variable bi-lstm/bidirectional_rnn/fw/lstm_cell/kernel already exists, disallowed. Did you mean to set reuse=True or reuse=tf.AUTO_REUSE in VarScope? Originally defined at:
+
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\framework\ops.py", line 1768, in __init__
+    self._traceback = tf_stack.extract_stack()
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\framework\ops.py", line 3272, in create_op
+    op_def=op_def)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\util\deprecation.py", line 488, in new_func
+    return func(*args, **kwargs)
+
+2019-07-09 17:10:20,358:ERROR: Internal Server Error: /demo_add/
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\python_code\Djangotest2\cmdb\views.py", line 50, in demo_add
+    res =seg2html(bicrfseg(demo_sent=input1))
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM_Segment.py", line 48, in predict_random
+    model.build_graph()
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM\BiLSTM_Model.py", line 58, in build_graph
+    self.biLSTM_layer_op()
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM\BiLSTM_Model.py", line 94, in biLSTM_layer_op
+    dtype=tf.float32)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 439, in bidirectional_dynamic_rnn
+    time_major=time_major, scope=fw_scope)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 664, in dynamic_rnn
+    dtype=dtype)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 868, in _dynamic_rnn_loop
+    swap_memory=swap_memory)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 3274, in while_loop
+    return_same_structure)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 2994, in BuildLoop
+    pred, body, original_loop_vars, loop_vars, shape_invariants)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 2929, in _BuildLoop
+    body_result = body(*packed_vars_for_body)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 3243, in <lambda>
+    body = lambda i, lv: (i + 1, orig_body(*lv))
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 834, in _time_step
+    skip_conditionals=True)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 275, in _rnn_step
+    new_output, new_state = call_cell()
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 822, in <lambda>
+    call_cell = lambda: cell(input_t, state)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn_cell_impl.py", line 370, in __call__
+    *args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\layers\base.py", line 364, in __call__
+    outputs = super(Layer, self).__call__(inputs, *args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\engine\base_layer.py", line 759, in __call__
+    self.build(input_shapes)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\utils\tf_utils.py", line 149, in wrapper
+    output_shape = fn(instance, input_shape)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn_cell_impl.py", line 923, in build
+    partitioner=maybe_partitioner)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\engine\base_layer.py", line 472, in add_variable
+    return self.add_weight(*args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\layers\base.py", line 278, in add_weight
+    getter=vs.get_variable)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\engine\base_layer.py", line 586, in add_weight
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\training\checkpointable\base.py", line 591, in _add_variable_with_custom_getter
+    **kwargs_for_getter)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 1484, in get_variable
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 1234, in get_variable
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 538, in get_variable
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 492, in _true_getter
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 859, in _get_single_variable
+    name, "".join(traceback.format_list(tb))))
+ValueError: Variable bi-lstm/bidirectional_rnn/fw/lstm_cell/kernel already exists, disallowed. Did you mean to set reuse=True or reuse=tf.AUTO_REUSE in VarScope? Originally defined at:
+
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\framework\ops.py", line 1768, in __init__
+    self._traceback = tf_stack.extract_stack()
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\framework\ops.py", line 3272, in create_op
+    op_def=op_def)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\util\deprecation.py", line 488, in new_func
+    return func(*args, **kwargs)
+
+2019-07-09 17:10:20,358:ERROR: Internal Server Error: /demo_add/
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\python_code\Djangotest2\cmdb\views.py", line 50, in demo_add
+    res =seg2html(bicrfseg(demo_sent=input1))
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM_Segment.py", line 48, in predict_random
+    model.build_graph()
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM\BiLSTM_Model.py", line 58, in build_graph
+    self.biLSTM_layer_op()
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM\BiLSTM_Model.py", line 94, in biLSTM_layer_op
+    dtype=tf.float32)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 439, in bidirectional_dynamic_rnn
+    time_major=time_major, scope=fw_scope)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 664, in dynamic_rnn
+    dtype=dtype)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 868, in _dynamic_rnn_loop
+    swap_memory=swap_memory)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 3274, in while_loop
+    return_same_structure)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 2994, in BuildLoop
+    pred, body, original_loop_vars, loop_vars, shape_invariants)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 2929, in _BuildLoop
+    body_result = body(*packed_vars_for_body)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 3243, in <lambda>
+    body = lambda i, lv: (i + 1, orig_body(*lv))
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 834, in _time_step
+    skip_conditionals=True)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 275, in _rnn_step
+    new_output, new_state = call_cell()
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 822, in <lambda>
+    call_cell = lambda: cell(input_t, state)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn_cell_impl.py", line 370, in __call__
+    *args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\layers\base.py", line 364, in __call__
+    outputs = super(Layer, self).__call__(inputs, *args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\engine\base_layer.py", line 759, in __call__
+    self.build(input_shapes)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\utils\tf_utils.py", line 149, in wrapper
+    output_shape = fn(instance, input_shape)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn_cell_impl.py", line 923, in build
+    partitioner=maybe_partitioner)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\engine\base_layer.py", line 472, in add_variable
+    return self.add_weight(*args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\layers\base.py", line 278, in add_weight
+    getter=vs.get_variable)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\engine\base_layer.py", line 586, in add_weight
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\training\checkpointable\base.py", line 591, in _add_variable_with_custom_getter
+    **kwargs_for_getter)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 1484, in get_variable
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 1234, in get_variable
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 538, in get_variable
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 492, in _true_getter
+    aggregation=aggregation)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\variable_scope.py", line 859, in _get_single_variable
+    name, "".join(traceback.format_list(tb))))
+ValueError: Variable bi-lstm/bidirectional_rnn/fw/lstm_cell/kernel already exists, disallowed. Did you mean to set reuse=True or reuse=tf.AUTO_REUSE in VarScope? Originally defined at:
+
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\framework\ops.py", line 1768, in __init__
+    self._traceback = tf_stack.extract_stack()
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\framework\ops.py", line 3272, in create_op
+    op_def=op_def)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\util\deprecation.py", line 488, in new_func
+    return func(*args, **kwargs)
+
+2019-07-09 17:14:12,498:INFO: E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM_Segment.py changed, reloading.
+2019-07-09 17:14:12,498:INFO: E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM_Segment.py changed, reloading.
+2019-07-09 17:14:12,498:INFO: E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM_Segment.py changed, reloading.
+2019-07-09 17:14:12,498:INFO: E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM_Segment.py changed, reloading.
+2019-07-09 17:14:54,811:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-09 17:14:55,395:ERROR: Internal Server Error: /demo_add/
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\client\session.py", line 1292, in _do_call
+    return fn(*args)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\client\session.py", line 1277, in _run_fn
+    options, feed_dict, fetch_list, target_list, run_metadata)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\client\session.py", line 1367, in _call_tf_sessionrun
+    run_metadata)
+tensorflow.python.framework.errors_impl.InternalError: Blas GEMM launch failed : a.shape=(1, 400), b.shape=(400, 400), m=1, n=400, k=400
+	 [[{{node bi-lstm/bidirectional_rnn/fw/fw/while/lstm_cell/MatMul}} = MatMul[T=DT_FLOAT, transpose_a=false, transpose_b=false, _device="/job:localhost/replica:0/task:0/device:GPU:0"](bi-lstm/bidirectional_rnn/fw/fw/while/lstm_cell/concat, bi-lstm/bidirectional_rnn/fw/fw/while/lstm_cell/MatMul/Enter)]]
+	 [[{{node proj/Reshape_1/_103}} = _Recv[client_terminated=false, recv_device="/job:localhost/replica:0/task:0/device:CPU:0", send_device="/job:localhost/replica:0/task:0/device:GPU:0", send_device_incarnation=1, tensor_name="edge_397_proj/Reshape_1", tensor_type=DT_FLOAT, _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\python_code\Djangotest2\cmdb\views.py", line 50, in demo_add
+    res =seg2html(bicrfseg(demo_sent=input1))
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM_Segment.py", line 56, in predict_random
+    tag = model.demo_one(sess, demo_data)
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM\BiLSTM_Model.py", line 191, in demo_one
+    label_list_, _ = self.predict_one_batch(sess, seqs)
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM\BiLSTM_Model.py", line 232, in predict_one_batch
+    feed_dict=feed_dict)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\client\session.py", line 887, in run
+    run_metadata_ptr)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\client\session.py", line 1110, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\client\session.py", line 1286, in _do_run
+    run_metadata)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\client\session.py", line 1308, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.InternalError: Blas GEMM launch failed : a.shape=(1, 400), b.shape=(400, 400), m=1, n=400, k=400
+	 [[{{node bi-lstm/bidirectional_rnn/fw/fw/while/lstm_cell/MatMul}} = MatMul[T=DT_FLOAT, transpose_a=false, transpose_b=false, _device="/job:localhost/replica:0/task:0/device:GPU:0"](bi-lstm/bidirectional_rnn/fw/fw/while/lstm_cell/concat, bi-lstm/bidirectional_rnn/fw/fw/while/lstm_cell/MatMul/Enter)]]
+	 [[{{node proj/Reshape_1/_103}} = _Recv[client_terminated=false, recv_device="/job:localhost/replica:0/task:0/device:CPU:0", send_device="/job:localhost/replica:0/task:0/device:GPU:0", send_device_incarnation=1, tensor_name="edge_397_proj/Reshape_1", tensor_type=DT_FLOAT, _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+
+Caused by op 'bi-lstm/bidirectional_rnn/fw/fw/while/lstm_cell/MatMul', defined at:
+  File "D:\Anaconda\lib\threading.py", line 882, in _bootstrap
+    self._bootstrap_inner()
+  File "D:\Anaconda\lib\threading.py", line 914, in _bootstrap_inner
+    self.run()
+  File "D:\Anaconda\lib\threading.py", line 862, in run
+    self._target(*self._args, **self._kwargs)
+  File "D:\Anaconda\lib\socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "D:\Anaconda\lib\socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "D:\Anaconda\lib\socketserver.py", line 681, in __init__
+    self.handle()
+  File "D:\Anaconda\lib\site-packages\django\core\servers\basehttp.py", line 169, in handle
+    self.handle_one_request()
+  File "D:\Anaconda\lib\site-packages\django\core\servers\basehttp.py", line 194, in handle_one_request
+    handler.run(self.server.get_app())
+  File "D:\Anaconda\lib\wsgiref\handlers.py", line 137, in run
+    self.result = application(self.environ, self.start_response)
+  File "D:\Anaconda\lib\site-packages\django\contrib\staticfiles\handlers.py", line 65, in __call__
+    return self.application(environ, start_response)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\wsgi.py", line 141, in __call__
+    response = self.get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\base.py", line 75, in get_response
+    response = self._middleware_chain(request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\utils\deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\utils\deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\utils\deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\utils\deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\utils\deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\utils\deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\utils\deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\python_code\Djangotest2\cmdb\views.py", line 50, in demo_add
+    res =seg2html(bicrfseg(demo_sent=input1))
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM_Segment.py", line 50, in predict_random
+    model.build_graph()
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM\BiLSTM_Model.py", line 58, in build_graph
+    self.biLSTM_layer_op()
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM\BiLSTM_Model.py", line 94, in biLSTM_layer_op
+    dtype=tf.float32)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 439, in bidirectional_dynamic_rnn
+    time_major=time_major, scope=fw_scope)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 664, in dynamic_rnn
+    dtype=dtype)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 868, in _dynamic_rnn_loop
+    swap_memory=swap_memory)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 3274, in while_loop
+    return_same_structure)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 2994, in BuildLoop
+    pred, body, original_loop_vars, loop_vars, shape_invariants)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 2929, in _BuildLoop
+    body_result = body(*packed_vars_for_body)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 3243, in <lambda>
+    body = lambda i, lv: (i + 1, orig_body(*lv))
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 834, in _time_step
+    skip_conditionals=True)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 275, in _rnn_step
+    new_output, new_state = call_cell()
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 822, in <lambda>
+    call_cell = lambda: cell(input_t, state)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn_cell_impl.py", line 370, in __call__
+    *args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\layers\base.py", line 364, in __call__
+    outputs = super(Layer, self).__call__(inputs, *args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\engine\base_layer.py", line 769, in __call__
+    outputs = self.call(inputs, *args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn_cell_impl.py", line 993, in call
+    array_ops.concat([inputs, m_prev], 1), self._kernel)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\math_ops.py", line 2053, in matmul
+    a, b, transpose_a=transpose_a, transpose_b=transpose_b, name=name)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\gen_math_ops.py", line 4857, in mat_mul
+    name=name)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\framework\op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\util\deprecation.py", line 488, in new_func
+    return func(*args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\framework\ops.py", line 3272, in create_op
+    op_def=op_def)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\framework\ops.py", line 1768, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+InternalError (see above for traceback): Blas GEMM launch failed : a.shape=(1, 400), b.shape=(400, 400), m=1, n=400, k=400
+	 [[{{node bi-lstm/bidirectional_rnn/fw/fw/while/lstm_cell/MatMul}} = MatMul[T=DT_FLOAT, transpose_a=false, transpose_b=false, _device="/job:localhost/replica:0/task:0/device:GPU:0"](bi-lstm/bidirectional_rnn/fw/fw/while/lstm_cell/concat, bi-lstm/bidirectional_rnn/fw/fw/while/lstm_cell/MatMul/Enter)]]
+	 [[{{node proj/Reshape_1/_103}} = _Recv[client_terminated=false, recv_device="/job:localhost/replica:0/task:0/device:CPU:0", send_device="/job:localhost/replica:0/task:0/device:GPU:0", send_device_incarnation=1, tensor_name="edge_397_proj/Reshape_1", tensor_type=DT_FLOAT, _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+
+2019-07-09 17:15:13,314:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-09 17:15:13,314:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-09 17:17:45,925:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-09 17:18:04,331:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-09 17:18:04,331:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-09 17:18:22,450:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-09 17:18:22,450:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-09 17:18:22,450:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-09 17:19:54,342:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-09 17:19:54,894:ERROR: Internal Server Error: /demo_add/
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\client\session.py", line 1292, in _do_call
+    return fn(*args)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\client\session.py", line 1277, in _run_fn
+    options, feed_dict, fetch_list, target_list, run_metadata)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\client\session.py", line 1367, in _call_tf_sessionrun
+    run_metadata)
+tensorflow.python.framework.errors_impl.InternalError: Blas GEMM launch failed : a.shape=(1, 400), b.shape=(400, 400), m=1, n=400, k=400
+	 [[{{node bi-lstm/bidirectional_rnn/fw/fw/while/lstm_cell/MatMul}} = MatMul[T=DT_FLOAT, transpose_a=false, transpose_b=false, _device="/job:localhost/replica:0/task:0/device:GPU:0"](bi-lstm/bidirectional_rnn/fw/fw/while/lstm_cell/concat, bi-lstm/bidirectional_rnn/fw/fw/while/lstm_cell/MatMul/Enter)]]
+	 [[{{node proj/Reshape_1/_103}} = _Recv[client_terminated=false, recv_device="/job:localhost/replica:0/task:0/device:CPU:0", send_device="/job:localhost/replica:0/task:0/device:GPU:0", send_device_incarnation=1, tensor_name="edge_397_proj/Reshape_1", tensor_type=DT_FLOAT, _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\python_code\Djangotest2\cmdb\views.py", line 49, in demo_add
+    res =seg2html(bicrfseg(demo_sent=input1))
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM_Segment.py", line 56, in predict_random
+    tag = model.demo_one(sess, demo_data)
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM\BiLSTM_Model.py", line 186, in demo_one
+    label_list_, _ = self.predict_one_batch(sess, seqs)
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM\BiLSTM_Model.py", line 227, in predict_one_batch
+    feed_dict=feed_dict)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\client\session.py", line 887, in run
+    run_metadata_ptr)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\client\session.py", line 1110, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\client\session.py", line 1286, in _do_run
+    run_metadata)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\client\session.py", line 1308, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.InternalError: Blas GEMM launch failed : a.shape=(1, 400), b.shape=(400, 400), m=1, n=400, k=400
+	 [[{{node bi-lstm/bidirectional_rnn/fw/fw/while/lstm_cell/MatMul}} = MatMul[T=DT_FLOAT, transpose_a=false, transpose_b=false, _device="/job:localhost/replica:0/task:0/device:GPU:0"](bi-lstm/bidirectional_rnn/fw/fw/while/lstm_cell/concat, bi-lstm/bidirectional_rnn/fw/fw/while/lstm_cell/MatMul/Enter)]]
+	 [[{{node proj/Reshape_1/_103}} = _Recv[client_terminated=false, recv_device="/job:localhost/replica:0/task:0/device:CPU:0", send_device="/job:localhost/replica:0/task:0/device:GPU:0", send_device_incarnation=1, tensor_name="edge_397_proj/Reshape_1", tensor_type=DT_FLOAT, _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+
+Caused by op 'bi-lstm/bidirectional_rnn/fw/fw/while/lstm_cell/MatMul', defined at:
+  File "D:\Anaconda\lib\threading.py", line 882, in _bootstrap
+    self._bootstrap_inner()
+  File "D:\Anaconda\lib\threading.py", line 914, in _bootstrap_inner
+    self.run()
+  File "D:\Anaconda\lib\threading.py", line 862, in run
+    self._target(*self._args, **self._kwargs)
+  File "D:\Anaconda\lib\socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "D:\Anaconda\lib\socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "D:\Anaconda\lib\socketserver.py", line 681, in __init__
+    self.handle()
+  File "D:\Anaconda\lib\site-packages\django\core\servers\basehttp.py", line 169, in handle
+    self.handle_one_request()
+  File "D:\Anaconda\lib\site-packages\django\core\servers\basehttp.py", line 194, in handle_one_request
+    handler.run(self.server.get_app())
+  File "D:\Anaconda\lib\wsgiref\handlers.py", line 137, in run
+    self.result = application(self.environ, self.start_response)
+  File "D:\Anaconda\lib\site-packages\django\contrib\staticfiles\handlers.py", line 65, in __call__
+    return self.application(environ, start_response)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\wsgi.py", line 141, in __call__
+    response = self.get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\base.py", line 75, in get_response
+    response = self._middleware_chain(request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\utils\deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\utils\deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\utils\deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\utils\deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\utils\deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\utils\deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\utils\deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Anaconda\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\python_code\Djangotest2\cmdb\views.py", line 49, in demo_add
+    res =seg2html(bicrfseg(demo_sent=input1))
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM_Segment.py", line 50, in predict_random
+    model.build_graph()
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM\BiLSTM_Model.py", line 55, in build_graph
+    self.biLSTM_layer_op()
+  File "E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM\BiLSTM_Model.py", line 91, in biLSTM_layer_op
+    dtype=tf.float32)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 439, in bidirectional_dynamic_rnn
+    time_major=time_major, scope=fw_scope)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 664, in dynamic_rnn
+    dtype=dtype)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 868, in _dynamic_rnn_loop
+    swap_memory=swap_memory)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 3274, in while_loop
+    return_same_structure)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 2994, in BuildLoop
+    pred, body, original_loop_vars, loop_vars, shape_invariants)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 2929, in _BuildLoop
+    body_result = body(*packed_vars_for_body)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\control_flow_ops.py", line 3243, in <lambda>
+    body = lambda i, lv: (i + 1, orig_body(*lv))
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 834, in _time_step
+    skip_conditionals=True)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 275, in _rnn_step
+    new_output, new_state = call_cell()
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn.py", line 822, in <lambda>
+    call_cell = lambda: cell(input_t, state)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn_cell_impl.py", line 370, in __call__
+    *args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\layers\base.py", line 364, in __call__
+    outputs = super(Layer, self).__call__(inputs, *args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\keras\engine\base_layer.py", line 769, in __call__
+    outputs = self.call(inputs, *args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\rnn_cell_impl.py", line 993, in call
+    array_ops.concat([inputs, m_prev], 1), self._kernel)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\math_ops.py", line 2053, in matmul
+    a, b, transpose_a=transpose_a, transpose_b=transpose_b, name=name)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\ops\gen_math_ops.py", line 4857, in mat_mul
+    name=name)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\framework\op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\util\deprecation.py", line 488, in new_func
+    return func(*args, **kwargs)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\framework\ops.py", line 3272, in create_op
+    op_def=op_def)
+  File "D:\Anaconda\lib\site-packages\tensorflow\python\framework\ops.py", line 1768, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+InternalError (see above for traceback): Blas GEMM launch failed : a.shape=(1, 400), b.shape=(400, 400), m=1, n=400, k=400
+	 [[{{node bi-lstm/bidirectional_rnn/fw/fw/while/lstm_cell/MatMul}} = MatMul[T=DT_FLOAT, transpose_a=false, transpose_b=false, _device="/job:localhost/replica:0/task:0/device:GPU:0"](bi-lstm/bidirectional_rnn/fw/fw/while/lstm_cell/concat, bi-lstm/bidirectional_rnn/fw/fw/while/lstm_cell/MatMul/Enter)]]
+	 [[{{node proj/Reshape_1/_103}} = _Recv[client_terminated=false, recv_device="/job:localhost/replica:0/task:0/device:CPU:0", send_device="/job:localhost/replica:0/task:0/device:GPU:0", send_device_incarnation=1, tensor_name="edge_397_proj/Reshape_1", tensor_type=DT_FLOAT, _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+
+2019-07-09 17:20:41,412:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-09 17:21:09,296:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-09 17:21:09,296:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-09 17:21:49,067:INFO: E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM\data.py changed, reloading.
+2019-07-09 17:21:49,067:INFO: E:\python_code\Djangotest2\cmdb\SegNer\BiLSTM\data.py changed, reloading.
+2019-07-09 17:22:13,253:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-09 17:22:33,256:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-09 17:22:33,256:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-10 11:13:11,916:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-10 11:29:18,971:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-10 11:45:32,187:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-10 15:07:16,461:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
+2019-07-10 15:07:23,737:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMNER\checkpoints/model-21420
+2019-07-11 10:54:08,116:INFO: Restoring parameters from E:\python_code\Djangotest2\cmdb\model\BiLSTMCX\checkpoints/model-27170
